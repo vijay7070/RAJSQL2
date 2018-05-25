@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FBBBF1F1F400F7D00DAE484 /* INFOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBBBF1E1F400F7D00DAE484 /* INFOViewController.m */; };
+		6FBBBF221F403DA200DAE484 /* SEARCHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBBBF211F403DA200DAE484 /* SEARCHViewController.m */; };
+		6FBBBF251F403F9600DAE484 /* SearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBBBF241F403F9600DAE484 /* SearchTableViewCell.m */; };
+		6FBE6E0E1F3ECD4A004CCFA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBE6E0D1F3ECD4A004CCFA9 /* main.m */; };
+		6FBE6E111F3ECD4A004CCFA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBE6E101F3ECD4A004CCFA9 /* AppDelegate.m */; };
+		6FBE6E141F3ECD4A004CCFA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBE6E131F3ECD4A004CCFA9 /* ViewController.m */; };
+		6FBE6E171F3ECD4A004CCFA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FBE6E151F3ECD4A004CCFA9 /* Main.storyboard */; };
+		6FBE6E191F3ECD4A004CCFA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FBE6E181F3ECD4A004CCFA9 /* Assets.xcassets */; };
+		6FBE6E1C1F3ECD4A004CCFA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FBE6E1A1F3ECD4A004CCFA9 /* LaunchScreen.storyboard */; };
+		6FBE6E251F3ECDCE004CCFA9 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBE6E241F3ECDCE004CCFA9 /* DBManager.m */; };
+		6FBE6E281F3ED6B0004CCFA9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBE6E271F3ED6B0004CCFA9 /* libsqlite3.tbd */; };
+		6FBE6E2B1F3EF39E004CCFA9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBE6E2A1F3EF39E004CCFA9 /* SecondViewController.m */; };
+		6FBE6E2E1F3EF40F004CCFA9 /* SQLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBE6E2D1F3EF40F004CCFA9 /* SQLTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6FBBBF1D1F400F7D00DAE484 /* INFOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INFOViewController.h; sourceTree = "<group>"; };
+		6FBBBF1E1F400F7D00DAE484 /* INFOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INFOViewController.m; sourceTree = "<group>"; };
+		6FBBBF201F403DA200DAE484 /* SEARCHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEARCHViewController.h; sourceTree = "<group>"; };
+		6FBBBF211F403DA200DAE484 /* SEARCHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEARCHViewController.m; sourceTree = "<group>"; };
+		6FBBBF231F403F9600DAE484 /* SearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewCell.h; sourceTree = "<group>"; };
+		6FBBBF241F403F9600DAE484 /* SearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewCell.m; sourceTree = "<group>"; };
+		6FBE6E091F3ECD4A004CCFA9 /* RAJSQL2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAJSQL2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FBE6E0D1F3ECD4A004CCFA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FBE6E0F1F3ECD4A004CCFA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FBE6E101F3ECD4A004CCFA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6FBE6E121F3ECD4A004CCFA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6FBE6E131F3ECD4A004CCFA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6FBE6E161F3ECD4A004CCFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FBE6E181F3ECD4A004CCFA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FBE6E1B1F3ECD4A004CCFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FBE6E1D1F3ECD4A004CCFA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FBE6E231F3ECDCE004CCFA9 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBManager.h; path = RAJSQL2/DBManager.h; sourceTree = "<group>"; };
+		6FBE6E241F3ECDCE004CCFA9 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBManager.m; path = RAJSQL2/DBManager.m; sourceTree = "<group>"; };
+		6FBE6E271F3ED6B0004CCFA9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6FBE6E291F3EF39E004CCFA9 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		6FBE6E2A1F3EF39E004CCFA9 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		6FBE6E2C1F3EF40F004CCFA9 /* SQLTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLTableViewCell.h; sourceTree = "<group>"; };
+		6FBE6E2D1F3EF40F004CCFA9 /* SQLTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FBE6E061F3ECD4A004CCFA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FBE6E281F3ED6B0004CCFA9 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FBE6E001F3ECD4A004CCFA9 = {
+			isa = PBXGroup;
+			children = (
+				6FBBBF231F403F9600DAE484 /* SearchTableViewCell.h */,
+				6FBBBF241F403F9600DAE484 /* SearchTableViewCell.m */,
+				6FBBBF201F403DA200DAE484 /* SEARCHViewController.h */,
+				6FBBBF211F403DA200DAE484 /* SEARCHViewController.m */,
+				6FBBBF1D1F400F7D00DAE484 /* INFOViewController.h */,
+				6FBBBF1E1F400F7D00DAE484 /* INFOViewController.m */,
+				6FBE6E2C1F3EF40F004CCFA9 /* SQLTableViewCell.h */,
+				6FBE6E2D1F3EF40F004CCFA9 /* SQLTableViewCell.m */,
+				6FBE6E291F3EF39E004CCFA9 /* SecondViewController.h */,
+				6FBE6E2A1F3EF39E004CCFA9 /* SecondViewController.m */,
+				6FBE6E231F3ECDCE004CCFA9 /* DBManager.h */,
+				6FBE6E241F3ECDCE004CCFA9 /* DBManager.m */,
+				6FBE6E0B1F3ECD4A004CCFA9 /* RAJSQL2 */,
+				6FBE6E0A1F3ECD4A004CCFA9 /* Products */,
+				6FBE6E261F3ED6AF004CCFA9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6FBE6E0A1F3ECD4A004CCFA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FBE6E091F3ECD4A004CCFA9 /* RAJSQL2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FBE6E0B1F3ECD4A004CCFA9 /* RAJSQL2 */ = {
+			isa = PBXGroup;
+			children = (
+				6FBE6E0F1F3ECD4A004CCFA9 /* AppDelegate.h */,
+				6FBE6E101F3ECD4A004CCFA9 /* AppDelegate.m */,
+				6FBE6E121F3ECD4A004CCFA9 /* ViewController.h */,
+				6FBE6E131F3ECD4A004CCFA9 /* ViewController.m */,
+				6FBE6E151F3ECD4A004CCFA9 /* Main.storyboard */,
+				6FBE6E181F3ECD4A004CCFA9 /* Assets.xcassets */,
+				6FBE6E1A1F3ECD4A004CCFA9 /* LaunchScreen.storyboard */,
+				6FBE6E1D1F3ECD4A004CCFA9 /* Info.plist */,
+				6FBE6E0C1F3ECD4A004CCFA9 /* Supporting Files */,
+			);
+			path = RAJSQL2;
+			sourceTree = "<group>";
+		};
+		6FBE6E0C1F3ECD4A004CCFA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FBE6E0D1F3ECD4A004CCFA9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FBE6E261F3ED6AF004CCFA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FBE6E271F3ED6B0004CCFA9 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FBE6E081F3ECD4A004CCFA9 /* RAJSQL2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FBE6E201F3ECD4A004CCFA9 /* Build configuration list for PBXNativeTarget "RAJSQL2" */;
+			buildPhases = (
+				6FBE6E051F3ECD4A004CCFA9 /* Sources */,
+				6FBE6E061F3ECD4A004CCFA9 /* Frameworks */,
+				6FBE6E071F3ECD4A004CCFA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAJSQL2;
+			productName = RAJSQL2;
+			productReference = 6FBE6E091F3ECD4A004CCFA9 /* RAJSQL2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FBE6E011F3ECD4A004CCFA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = RAJ;
+				TargetAttributes = {
+					6FBE6E081F3ECD4A004CCFA9 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = NXDYMUHTA5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6FBE6E041F3ECD4A004CCFA9 /* Build configuration list for PBXProject "RAJSQL2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FBE6E001F3ECD4A004CCFA9;
+			productRefGroup = 6FBE6E0A1F3ECD4A004CCFA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FBE6E081F3ECD4A004CCFA9 /* RAJSQL2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FBE6E071F3ECD4A004CCFA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FBE6E1C1F3ECD4A004CCFA9 /* LaunchScreen.storyboard in Resources */,
+				6FBE6E191F3ECD4A004CCFA9 /* Assets.xcassets in Resources */,
+				6FBE6E171F3ECD4A004CCFA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FBE6E051F3ECD4A004CCFA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FBE6E2B1F3EF39E004CCFA9 /* SecondViewController.m in Sources */,
+				6FBE6E141F3ECD4A004CCFA9 /* ViewController.m in Sources */,
+				6FBE6E111F3ECD4A004CCFA9 /* AppDelegate.m in Sources */,
+				6FBBBF1F1F400F7D00DAE484 /* INFOViewController.m in Sources */,
+				6FBE6E0E1F3ECD4A004CCFA9 /* main.m in Sources */,
+				6FBBBF251F403F9600DAE484 /* SearchTableViewCell.m in Sources */,
+				6FBE6E2E1F3EF40F004CCFA9 /* SQLTableViewCell.m in Sources */,
+				6FBBBF221F403DA200DAE484 /* SEARCHViewController.m in Sources */,
+				6FBE6E251F3ECDCE004CCFA9 /* DBManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6FBE6E151F3ECD4A004CCFA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FBE6E161F3ECD4A004CCFA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FBE6E1A1F3ECD4A004CCFA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FBE6E1B1F3ECD4A004CCFA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FBE6E1E1F3ECD4A004CCFA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FBE6E1F1F3ECD4A004CCFA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FBE6E211F3ECD4A004CCFA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NXDYMUHTA5;
+				INFOPLIST_FILE = RAJSQL2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RAJ.RAJSQL2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6FBE6E221F3ECD4A004CCFA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NXDYMUHTA5;
+				INFOPLIST_FILE = RAJSQL2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RAJ.RAJSQL2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FBE6E041F3ECD4A004CCFA9 /* Build configuration list for PBXProject "RAJSQL2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FBE6E1E1F3ECD4A004CCFA9 /* Debug */,
+				6FBE6E1F1F3ECD4A004CCFA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FBE6E201F3ECD4A004CCFA9 /* Build configuration list for PBXNativeTarget "RAJSQL2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FBE6E211F3ECD4A004CCFA9 /* Debug */,
+				6FBE6E221F3ECD4A004CCFA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FBE6E011F3ECD4A004CCFA9 /* Project object */;
+}
